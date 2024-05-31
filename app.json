@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.d14m0nd.F1LiveStats"
     },
     "android": {
       "adaptiveIcon": {
