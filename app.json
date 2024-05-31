@@ -4,12 +4,12 @@
     "slug": "F1LiveStats",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/finished_icon.png",
+    "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash_with_logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#332B2B"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,24 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/finished_icon.png",
+        "backgroundColor": "#332B2B"
+      },
+      "package": "com.d14m0nd.F1LiveStats"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ce0639b8-eea3-493a-a5f3-e0e2c98b292d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ce0639b8-eea3-493a-a5f3-e0e2c98b292d"
     }
   }
 }
